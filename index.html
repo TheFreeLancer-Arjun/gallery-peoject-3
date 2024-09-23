@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Gallery SaGa</title>
+    <link rel="shortcut icon" href="android-chrome-192x192.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+    .grid > div {
+        grid-row: var(--r);
+        grid-column: var(--c);
+    }
+</style>
+<body>
+    <div class="w-full bg-zinc-900">
+       
+    <div class="grid grid-cols-8 grid-rows-20 gap-4">
+        <!-- Generate 20 divs with model images from Unsplash -->
+        <div class="aspect-square" style="--r: 3; --c: 5;">
+            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Model image" class="w-full h-full object-cover">
+        </div>
+        <div class="aspect-square" style="--r: 7; --c: 2;">
+            <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Model image" class="w-full h-full object-cover">
+        </div>
+        <div class="aspect-square" style="--r: 1; --c: 8;">
+            <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Model image" class="w-full h-full object-cover">
+        </div>
+        <div class="aspect-square" style="--r: 9; --c: 4;">
+            <img src="https://images.unsplash.com/photo-1488161628813-04466f872be2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80" alt="Model image" class="w-full h-full object-cover">
+        </div>
+        <div class="aspect-square" style="--r: 5; --c: 1;">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Model image" class="w-full h-full object-cover">
+        </div>
+        <div class="aspect-square" style="--r: 2; --c: 6;">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80" alt="Model image" class="w-full h-full object-cover">
+        </div>
+        <div class="aspect-square" style="--r: 8; --c: 3;">
+            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Model image" class="w-full h-full object-cover">
+        </div>
+        <div class="aspect-square" style="--r: 4; --c: 7;">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Model image" class="w-full h-full object-cover">
+        </div>
+        <div class="aspect-square" style="--r: 6; --c: 2;">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Model image" class="w-full h-full object-cover">
+        </div>
+        <div class="aspect-square" style="--r: 10; --c: 5;">
+            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Model image" class="w-full h-full object-cover">
+        </div>
+        <div class="aspect-square" style="--r: 3; --c: 8;">
+            <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80" alt="Model image" class="w-full h-full object-cover">
+        </div>
+        <div class="aspect-square" style="--r: 7; --c: 1;">
+            <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Model image" class="w-full h-full object-cover">
+        </div>
+        <div class="aspect-square" style="--r: 1; --c: 6;">
+            <img src="https://images.unsplash.com/photo-1488161628813-04466f872be2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80" alt="Model image" class="w-full h-full object-cover">
+        </div>
+        <div class="aspect-square" style="--r: 9; --c: 3;">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Model image" class="w-full h-full object-cover">
+        </div>
+        <div class="aspect-square" style="--r: 5; --c: 7;">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80" alt="Model image" class="w-full h-full object-cover">
+        </div>
+        <div class="aspect-square" style="--r: 2; --c: 4;">
+            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Model image" class="w-full h-full object-cover">
+        </div>
+        <div class="aspect-square" style="--r: 8; --c: 2;">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Model image" class="w-full h-full object-cover">
+        </div>
+        <div class="aspect-square" style="--r: 4; --c: 8;">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Model image" class="w-full h-full object-cover">
+        </div>
+        <div class="aspect-square" style="--r: 6; --c: 5;">
+            <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Model image" class="w-full h-full object-cover">
+        </div>
+        <div class="aspect-square" style="--r: 10; --c: 1;">
+            <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80" alt="Model image" class="w-full h-full object-cover">
+        </div>
+    </div>
+
+    <div class="fixed inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-white">
+        <h1 class="text-6xl font-bold mb-4">Gallery SaGa</h1>
+        <h2 class="text-base">単語、フレーズ、 ページを翻訳し</h2>
+    </div>
+
+    </div>
+
+
+
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
+    <script src="index.js"></script>
+</body>
+</html> 
